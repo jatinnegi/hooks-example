@@ -1,10 +1,10 @@
 function main() {
-  const greeting = `${getGreeting()} Hello, from git hooks!`;
+  const greeting = `${getGreeting("Jatin")} Hello, from git hooks!`;
   console.log(greeting);
 }
 
-function getGreeting() {
-  return "Good evening!";
+function getGreeting(name) {
+  return `Good evening, ${name}!`;
 }
 
 main();
