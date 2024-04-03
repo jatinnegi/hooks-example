@@ -1,6 +1,6 @@
 function main() {
   const greeting = `${getGreeting("Jatin")} Hello, from git hooks!`;
-  return greeting;
+  console.log(greeting);
 }
 
 function getGreeting(name) {
