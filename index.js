@@ -1,5 +1,5 @@
 function main() {
-  const greeting = `${getGreeting("Jatin")} Hello, from git hooks!`;
+  const greeting = `${getGreeting("Jatin")} Hello, from Git hooks!`;
   console.log(greeting);
 }
 
